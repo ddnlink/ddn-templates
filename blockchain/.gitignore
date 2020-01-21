@@ -1,0 +1,35 @@
+# database
+blockchain.*
+*.db
+*.db-journal
+
+# folders
+release
+sqlite
+nodejs
+node_modules
+.project
+public/dist
+dapps/**/*.*
+
+# safe
+build
+deploy
+ssl/
+
+# ide
+.DS_Store
+.ed25519-node
+.idea/
+*.log
+__MACOSX/
+.vs/
+.vscode
+
+# tmp
+stacktrace*
+tmp
+*.pid
+
+package-lock.json
+yarn.lock
