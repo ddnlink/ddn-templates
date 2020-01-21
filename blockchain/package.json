@@ -1,6 +1,7 @@
 {
-  "name": "example",
+  "name": "{{name}}",
   "version": "1.0.0",
+  "description": "{{description}}",
   "main": "./app.js",
   "files": [
     "lib",
@@ -26,7 +27,7 @@
     "cryptography",
     "encryption"
   ],
-  "author": "DDN <support@ddn.link>",
+  "author": "{{author}}",
   "contributors": [
     {
       "name": "imfly",
