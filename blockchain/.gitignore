@@ -5,17 +5,20 @@ blockchain.*
 
 # folders
 release
+build
+.project
+public/dist
 sqlite
 nodejs
 node_modules
-.project
-public/dist
 dapps/**/*.*
 
 # safe
-build
 deploy
-ssl/
+ssl
+**/**/config.mainnet.*
+**/**/config.local.*
+**/**/.ddnrc.local.*
 
 # ide
 .DS_Store
