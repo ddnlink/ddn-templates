@@ -14,7 +14,7 @@ module.exports = {
   port: 8001,
   address: "127.0.0.1",
   publicIp: "",
-  logLevel: "error",
+  logLevel: "info",
   netVersion: "testnet",
   nethash: "0ab796cd",
   api: {
@@ -229,14 +229,14 @@ module.exports = {
   /**
    * 扩展资产插件，对于区块链而言就是资产包，所以使用 assets
    * assets: [
-   *  "@ddn/ddn-evidence",
-   *  "@ddn/ddn-aob"
+   *  "@ddn/asset-evidence",
+   *  "@ddn/asset-aob"
    * ]
    */
   assets: [
-    "@ddn/ddn-evidence",
-    "@ddn/ddn-aob",
-    "@ddn/ddn-dapp",
-    "@ddn/ddn-dao"
+    "@ddn/asset-evidence",
+    "@ddn/asset-aob",
+    "@ddn/asset-dapp",
+    "@ddn/asset-dao"
   ],
 };
