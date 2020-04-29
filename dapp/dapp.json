@@ -5,7 +5,7 @@
   "description": "{{description}}",
   "tags": "{{tags}}",
   "icon": "{{icon}}",
-  "type": 0,
-  "delegates": {{delegates}},
-  "unlockDelegates": {{unlockDelegates}}
+  "type": "{{type}}",
+  "delegates": "[{{delegates}}]",
+  "unlockDelegates": "{{unlockDelegates}}"
 }
