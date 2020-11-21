@@ -1,11 +1,11 @@
 {
   "name": "{{name}}",
   "link": "{{link}}",
-  "category": "{{numberFormat category}}",
+  "category": "{{number category}}",
   "description": "{{description}}",
   "tags": "{{tags}}",
   "icon": "{{icon}}",
-  "type": "{{numberFormat type}}",
+  "type": "{{number type}}",
   "delegates": "[{{delegates}}]",
-  "unlock_delegates": "{{numberFormat unlockDelegates}}"
+  "unlock_delegates": "{{number unlockDelegates}}"
 }
