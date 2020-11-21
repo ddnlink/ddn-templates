@@ -7,5 +7,5 @@
   "icon": "{{icon}}",
   "type": "{{type}}",
   "delegates": "[{{delegates}}]",
-  "unlockDelegates": "{{unlockDelegates}}"
+  "unlock_delegates": "{{unlockDelegates}}"
 }
