@@ -1,11 +1,11 @@
 {
   "name": "{{name}}",
   "link": "{{link}}",
-  "category": "{{number category}}",
+  "category": "{{toInt category}}",
   "description": "{{description}}",
   "tags": "{{tags}}",
   "icon": "{{icon}}",
-  "type": "{{number type}}",
+  "type": "{{toInt type}}",
   "delegates": "[{{delegates}}]",
-  "unlock_delegates": "{{number unlockDelegates}}"
+  "unlock_delegates": "{{toInt unlockDelegates}}"
 }
