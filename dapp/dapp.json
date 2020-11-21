@@ -1,5 +1,5 @@
 {
-  "name": "'{{name}}'",
+  "name": "{{name}}",
   "link": "{{link}}",
   "category": "{{category}}",
   "description": "{{description}}",
