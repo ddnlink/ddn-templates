@@ -1,6 +1,6 @@
 {
   "name": "{{name}}",
-  "link": {{link}},
+  "link": "{{link}}",
   "category": {{toInt category}},
   "description": "{{description}}",
   "tags": "{{tags}}",
