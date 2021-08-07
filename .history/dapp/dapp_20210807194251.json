@@ -6,6 +6,6 @@
   "tags": "{{tags}}",
   "icon": "{{icon}}",
   "type": {{toInt type}},
-  "delegates": "{{delegates}}",
+  "delegates": {{split delegates ","}},
   "unlock_delegates": {{toInt unlock_delegates}}
 }
